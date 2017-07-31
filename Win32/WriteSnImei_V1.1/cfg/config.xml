@@ -1,0 +1,23 @@
+﻿<project>
+<baud name="baud">
+<value>115200</value>	
+</baud>
+<item name="IMEI" property="RImei">
+<cmd>AT^MODIMEI=</cmd>
+<rcmd>AT^READIMEI</rcmd>
+<rprefix></rprefix>
+<prefix>^MODIMEI:</prefix>
+<len>15</len>
+<vald>true</vald>
+<succrep>OK</succrep>
+</item>
+<item name="SN" property="RSN">
+<cmd>AT+BOARDNUM=</cmd>
+<rcmd>AT+BOARDNUM?</rcmd>
+<rprefix>+BOARDNUM:</rprefix>
+<prefix></prefix>
+<len>16</len>
+<vald>true</vald>
+<succrep>OK</succrep>
+</item>
+</project>

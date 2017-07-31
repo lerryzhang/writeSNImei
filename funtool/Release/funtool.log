@@ -1,0 +1,49 @@
+﻿生成启动时间为 2016/12/15 15:20:20。
+     1>项目“C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\funtool\funtool.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing readthread.h...
+         Moc'ing workthread.h...
+         Moc'ing my_combobox.h...
+         Moc'ing mainwindow.h...
+         Rcc'ing funtool.qrc...
+     1>RCC : warning : No resources in 'C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\funtool\funtool.qrc'.
+         
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\static\static2012\include /I.\GeneratedFiles\Release /ID:\static\static2012\include\QtGui /ID:\static\static2012\include\QtWidgets /ID:\static\static2012\include\QtQml /ID:\static\static2012\include\QtXml /ID:\static\static2012\include\QtXmlPatterns /ID:\static\static2012\include\QtSql /ID:\static\static2012\include\QtNetwork /ID:\static\static2012\include\QtCore /ID:\static\static2012\include\QtSensors /ID:\static\static2012\include\QtScript /ID:\static\static2012\include\QtMultimedia /ID:\static\static2012\include\ActiveQt /ID:\static\static2012\include\QtBluetooth /ID:\static\static2012\include\QtPrintSupport /ID:\static\static2012\include\QtSvg /ID:\static\static2012\include\QtConcurrent /ID:\static\static2012\include\QtMultimediaWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D NDEBUG /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_QML_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /D QT_SQL_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D QT_SENSORS_LIB /D QT_SCRIPT_LIB /D QT_MULTIMEDIA_LIB /D QT_BLUETOOTH_LIB /D QT_PRINTSUPPORT_LIB /D QT_SVG_LIB /D QT_CONCURRENT_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\funtool_new2\funtool\my_combobox.cpp GeneratedFiles\Release\moc_mainwindow.cpp GeneratedFiles\Release\moc_my_combobox.cpp GeneratedFiles\Release\moc_readthread.cpp GeneratedFiles\Release\moc_workthread.cpp main.cpp maincom.cpp mainlog.cpp mainwindow.cpp my_combobox.cpp readthread.cpp rutil.cpp workthread.cpp
+         my_combobox.cpp
+         moc_mainwindow.cpp
+         moc_my_combobox.cpp
+         moc_readthread.cpp
+         moc_workthread.cpp
+         main.cpp
+         maincom.cpp
+         mainlog.cpp
+         mainwindow.cpp
+         my_combobox.cpp
+         readthread.cpp
+         rutil.cpp
+         workthread.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\Win32\Release\\funtool.exe" /NOLOGO /LIBPATH:D:\static\static2012\plugins\sqldrivers /LIBPATH:D:\static\static2012\plugins\platforms /LIBPATH:D:\static\static2012\lib kernel32.lib user32.lib shell32.lib uuid.lib ole32.lib advapi32.lib ws2_32.lib gdi32.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib qtmain.lib odbc32.lib Qt5Gui.lib Qt5Widgets.lib Qt5Qml.lib Qt5Xml.lib Qt5XmlPatterns.lib Qt5SerialPort.lib Qt5Sql.lib Qt5Network.lib Qt5Core.lib Qt5Sensors.lib Qt5Script.lib qwindows.lib Qt5PlatformSupport.lib qsqlodbc.lib Qt5Multimedia.lib Qt5AxContainer.lib Qt5AxBase.lib Qt5Bluetooth.lib Qt5PrintSupport.lib Qt5Svg.lib Qt5Concurrent.lib Qt5MultimediaWidgets.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\Win32\Release\funtool.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\Win32\Release\funtool.lib" /MACHINE:X86 /SAFESEH Release\my_combobox.obj
+         Release\moc_mainwindow.obj
+         Release\moc_my_combobox.obj
+         Release\moc_readthread.obj
+         Release\moc_workthread.obj
+         Release\main.obj
+         Release\maincom.obj
+         Release\mainlog.obj
+         Release\mainwindow.obj
+         Release\my_combobox.obj
+         Release\readthread.obj
+         Release\rutil.obj
+         Release\workthread.obj
+     1>Release\my_combobox.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+            正在创建库 C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\Win32\Release\funtool.lib 和对象 C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\Win32\Release\funtool.exp
+         funtool.vcxproj -> C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\Win32\Release\funtool.exe
+     1>已完成生成项目“C:\Users\Rambo\Documents\Visual Studio 2012\Projects\writeSNIMEI\funtool\funtool.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.46
